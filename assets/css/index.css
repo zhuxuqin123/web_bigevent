@@ -1,0 +1,74 @@
+a {
+    /* 取消所有layui中默认a链接动画 */
+    transition: none !important;
+}
+
+/* 头部区域 */
+.layui-header .layui-bg-black {
+    background-color: #23262e !important;
+}
+
+.icon-tuichu {
+    margin-right: 10px;
+}
+
+/* 主体区域 */
+/* 主体左侧栏 */
+.aside .layui-icon {
+    margin-right: 15px;
+}
+
+.aside .iconfont {
+    margin-right: 15px;
+}
+
+.layui-nav-child {
+    padding-left: 20px !important;
+}
+
+.aside .userinfo {
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    /* 设置文本不被选中 */
+    user-select: none;
+    border-bottom: 1px solid #282b33;
+}
+
+.layui-nav-img {
+    width: 40px;
+    height: 40px;
+}
+
+.text-avatar {
+    display: inline-block;
+    position: relative;
+    top: 5px;
+    right: 5px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #009688;
+    font-size: 20px;
+    color: #fff;
+}
+
+/* 右侧内容主体区域 */
+.layui-body .main {
+    width: 100%;
+    height: 100%;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* 底部区域 */
+.layui-footer {
+    text-align: center;
+
+}
