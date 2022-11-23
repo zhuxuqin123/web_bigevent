@@ -1,0 +1,9 @@
+.layui-card-header {
+    height: 52px;
+    line-height: 52px;
+}
+
+.addCate {
+    float: right;
+    margin-top: 5px;
+}
