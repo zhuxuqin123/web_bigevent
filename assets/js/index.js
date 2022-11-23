@@ -50,7 +50,7 @@ function getAvatar(data){
     //如果头像存在,就设置头像
     if(data.user_pic){
         $('.text-avatar').hide()
-        $('.layui-nav-img').attr('src',res.data.user_pic).show()
+        $('.layui-nav-img').attr('src',data.user_pic).show()
     }else{
         //如果头像没有上传,则选择名称第一个字母大写为头像
         $('.layui-nav-img').hide()
